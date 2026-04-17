@@ -7,5 +7,6 @@ coverage/
 .env*
 !.env.example
 
-# Exclude large media from GitHub
-public/images/
+# Exclude media files from GitHub but keep the folder structure
+public/images/**/*
+!public/images/**/README.md
